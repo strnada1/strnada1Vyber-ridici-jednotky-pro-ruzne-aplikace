@@ -83,10 +83,10 @@ Proč se u kritických aplikací v letectví (např. systém řízení letu Fly-
 	     - K čemu se využívá v PLC/MCU: `Provozní obraz vstupů a výstupů, Ukládání dynamických proměnných, Komunikační vyrovnávací paměť (Buffers), Receptury a dočasná data`
      - **Flash (ROM):** 
 	     - Je volatilní? `Ano`
-	     - K čemu se využívá v PLC/MCU: `...`
+	     - K čemu se využívá v PLC/MCU: `k trvalému uložení všeho, co zařízení potřebuje k tomu, aby vůbec vědělo, jak fungovat, a to i po úplném vypnutí napájení`
      - **EEPROM / NVRAM:** 
 	     - Je volatilní? `Ne`
-	     - K čemu se využívá v PLC/MCU: `...`
+	     - K čemu se využívá v PLC/MCU: `ukládání provozních dat, která se mění za běhu, ale nesmí se smazat při výpadku napájení`
    - *Otázka z praxe:* Kam se v průmyslovém PLC ukládají aktuální provozní proměnné (např. čítače vyrobených kusů nebo motohodiny), aby se při nečekaném výpadku napájení neztratily (tzv. remanentní / retain data)?
      - Odpověď: `...`
 
