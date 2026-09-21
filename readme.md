@@ -88,11 +88,11 @@ Proč se u kritických aplikací v letectví (např. systém řízení letu Fly-
 	     - Je volatilní? `Ne`
 	     - K čemu se využívá v PLC/MCU: `ukládání provozních dat, která se mění za běhu, ale nesmí se smazat při výpadku napájení`
    - *Otázka z praxe:* Kam se v průmyslovém PLC ukládají aktuální provozní proměnné (např. čítače vyrobených kusů nebo motohodiny), aby se při nečekaném výpadku napájení neztratily (tzv. remanentní / retain data)?
-     - Odpověď: `...`
+     - Odpověď: `EERROM`
 
 2. **Reálný čas a determinismus (Hard vs. Soft Real-Time):**
    - Proč pro reakci na nouzové zastavení lisu (požadavek reakce do 5 ms) použijeme PLC či mikrokontrolér s RTOS, a nikoliv běžné Raspberry Pi s operačním systémem Raspberry Pi OS (standardní Linux)?
-     - Odpověď: `...`
+     - Odpověď: `dokážou reagovat na vstupy v předvídatelném čase , lépe zajistíme reakci do 5ms`
 
 3. **Odolnost vůči vlivům prostředí a dešifrování kódu IP:**
    - Dešifrujte kód **IP68**:
