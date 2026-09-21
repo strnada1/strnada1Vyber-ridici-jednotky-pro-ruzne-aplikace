@@ -67,7 +67,7 @@ Doplňte do níže uvedené tabulky význam zkratek, základní princip a typick
 Proč se u kritických aplikací v letectví (např. systém řízení letu Fly-by-Wire) nebo v jaderné energetice stále upřednostňují jednoduché deterministické mikrořadiče s několika desítkami kilobajtů paměti nebo obvody FPGA před moderními vícejádrovými gigahertzovými procesory s gigabajty RAM?
 
 *Vaše odpověď:*
-`...`
+`determinizmus, certifikovatelnost a fyzikální odolnost`
 
 ---
 
