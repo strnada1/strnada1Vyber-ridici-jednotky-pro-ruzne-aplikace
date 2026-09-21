@@ -41,7 +41,7 @@ Výběr řídící jednotky pro různé aplikace
 Doplňte do níže uvedené tabulky význam zkratek, základní princip a typický příklad reálného nasazení nebo zástupce:
 
 | Zkratka / Pojem          | Co zkratka znamená (česky / anglicky) | Základní charakteristika (architektura, kde běží program)                                            | Typický zástupce (konkrétní rodina / model) | Příklad reálného nasazení                |
-| :----------------------- | :------------------------------------ | :--------------------------------------------------------------------------------------------------- | :------------------------------------------ | :--------------------------------------- |
+| :----------------------- | :------------------------------------ | :--------------------------------------------------------------------------------------------------- | :------------------------------------------ | :--------------------------------------- |sdjghjgxgdgfdgdh
 | **MCU**                  |                                       | Integrovaný čip (CPU + RAM + Flash na jednom substrátu), deterministický běh bez OS nebo RTOS        | např. ESP32, PIC16LF1xxx, RP2040            |                                          |
 | **MPU**                  |                                       | Samostatný procesor vyžadující externí RAM a úložiště, zpravidla běží plnohodnotný OS (Linux)        |                                             |                                          |
 | **Embedded**             |                                       |                                                                                                      | Embedded PLC, Embedded PC                   | Bílá technika, bankomaty, regulace kotlů |
