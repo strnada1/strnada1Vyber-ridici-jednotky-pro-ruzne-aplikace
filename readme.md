@@ -78,14 +78,14 @@ Proč se u kritických aplikací v letectví (např. systém řízení letu Fly-
 1. **Typy pamětí v řídicích jednotkách:**
    - Doplňte porovnání pamětí z hlediska stálosti dat a rychlosti:
      - **RAM:** 
-	     - Je volatilní (energeticky závislá)? `[Ano / Ne]`
-	     - Rychlost zápisu: `...` 
-	     - K čemu se využívá v PLC/MCU: `...`
+	     - Je volatilní (energeticky závislá)? `Ano `
+	     - Rychlost zápisu: `40-85 GB/s` 
+	     - K čemu se využívá v PLC/MCU: `Provozní obraz vstupů a výstupů, Ukládání dynamických proměnných, Komunikační vyrovnávací paměť (Buffers), Receptury a dočasná data`
      - **Flash (ROM):** 
-	     - Je volatilní? `[Ano / Ne]`
+	     - Je volatilní? `Ano`
 	     - K čemu se využívá v PLC/MCU: `...`
      - **EEPROM / NVRAM:** 
-	     - Je volatilní? `[Ano / Ne]`
+	     - Je volatilní? `Ne`
 	     - K čemu se využívá v PLC/MCU: `...`
    - *Otázka z praxe:* Kam se v průmyslovém PLC ukládají aktuální provozní proměnné (např. čítače vyrobených kusů nebo motohodiny), aby se při nečekaném výpadku napájení neztratily (tzv. remanentní / retain data)?
      - Odpověď: `...`
