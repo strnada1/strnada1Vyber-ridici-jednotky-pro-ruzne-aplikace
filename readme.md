@@ -131,7 +131,7 @@ Proč se u kritických aplikací v letectví (např. systém řízení letu Fly-
 Co označuje doplňkové písmeno **K** v kódu krytí **IP69K** a v jakém průmyslovém odvětví je toto krytí bezpodmínečně vyžadováno?
 
 *Vaše odpověď:*
-`...`
+`zvýšená odolnost proti vysokému tlaku a ostřiku`
 
 ---
 
