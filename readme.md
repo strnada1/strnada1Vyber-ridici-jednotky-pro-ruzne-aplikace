@@ -96,24 +96,24 @@ Proč se u kritických aplikací v letectví (např. systém řízení letu Fly-
 
 3. **Odolnost vůči vlivům prostředí a dešifrování kódu IP:**
    - Dešifrujte kód **IP68**:
-     - První číslice (6): `...`
-     - Druhá číslice (8): `...`
+     - První číslice (6): `prachu těsný`
+     - Druhá číslice (8): `vodě těsný`
    - Jaké minimální krytí IP musí mít rozváděč umístěný ve venkovním nekrytém prostředí, kde na něj přímo dopadá déšť a fouká polétavý prach?
-     - Označte správnou volbu: `[ ] IP20` | `[ ] IP44` | `[ ] IP65` | `[ ] IP00`
+     - Označte správnou volbu: `[ ] IP20` | `[ ] IP44` | `[ x ] IP65` | `[ ] IP00`
      - Zdůvodnění: `...`
 
 4. **Konstrukční rozdíly kancelářského PC vs. průmyslového iPC:**
    - Vyberte a doplňte hlavní odlišnosti:
      - *Chlazení:* 
-	     - Kancelářské PC: `...` 
-	     - vs. iPC: `...`
+	     - Kancelářské PC: `aktivní - vodní chlazení nebo ventilátory` 
+	     - vs. iPC: `pasivní - vlastně nic`
      - *Napájecí napětí a filtrace:* 
-	     - Kancelářské PC: `...` 
-	     - vs. iPC: `...`
-     - *Odolnost proti otřesům a vibracím:* `...`
+	     - Kancelářské PC: `klasické AC 230V a ATX zdroj` 
+	     - vs. iPC: `široký rozsah DC napětí (9 - 36V) Filtrace proti el.mag. rušení, zabudovaná ochrana na přepětí a podpětí`
+     - *Odolnost proti otřesům a vibracím:* `Vysoká odolnost (často certifikace MIL-STD-810G); klíčové komponenty (CPU, RAM) jsou pájené přímo na desce (on-board), kabelové spoje jsou šroubované nebo uzamykatelné a používají se výhradně průmyslová SSD bez pohyblivých částí.`
      - *Způsob montáže:* 
 	     - Kancelářské PC: na stůl/pod stůl 
-	     - vs. iPC: `...`
+	     - vs. iPC: `na DIN lištu přímo do rozvaděče`
 
 > :key: **Vysvětlení pojmů a odborné zdroje:**
 > - **Determinismus (Real-Time):** Vlastnost systému, která zaručuje, že odezva na vstupní událost proběhne vždy v přesně definovaném a předvídatelném čase (deadline). V *Hard Real-Time* systémech znamená nedodržení časového limitu fatální havárii celého procesu. 
