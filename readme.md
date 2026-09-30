@@ -277,10 +277,10 @@ Jako vedoucí inženýr jste převzal projekt po nezkušeném brigádníkovi, kt
 
 | Oblast auditu | Zjištěná vada v amatérském návrhu | Fyzikální mechanismus selhání (proč to selže) | Následek pro stroj nebo obsluhu |
 | :--- | :--- | :--- | :--- |
-| **Elektromagnetická kompatibilita (EMC)** | `...` | Napěťové špičky z indukční zátěže hydraulických ventilů způsobí restart MCU... | `...` |
-| **Mechanická a teplotní odolnost** | PLA plast a montáž na těleso lisu | `...` | `...` |
-| **Konektivita a propojení vodičů** | DuPont propojovací kabely bez aretace | `...` | `...` |
-| **Funkční bezpečnost (Safety)** | Nouzový stop řešený softwarově v čipu | `...` | `...` |
+| **Elektromagnetická kompatibilita (EMC)** | ` Hobby reléový modul bez odrušení, nepájené vodiče, absence stínění a průmyslového filtru napájení. ` | Napěťové špičky z indukční zátěže hydraulických ventilů způsobí restart MCU... | ` Nekontrolované spuštění lisu bez povelu obsluhy, zacyklení programu v momentě sevření zápustky, zničení řídicí desky. ` |
+| **Mechanická a teplotní odolnost** | PLA plast a montáž na těleso lisu | ` PLA plast má nízkou teplotní odolnost (měkne již při cca 50–60 °C). Teplo z lisu a okolní prašné kovářské dílny způsobí deformaci pouzdra. Stálé vibrace lisu vedou k únavovým lomům křehkého plastu a tištěných spojů Arduina. ` | ` Mechanické rozpadnutí řízení, zkratování odhalených živých částí o kovovou konstrukci stroje, vniknutí vodivého okují a prachu do elektroniky. ` |
+| **Konektivita a propojení vodičů** | DuPont propojovací kabely bez aretace | ` Mikro-vibrace přenášené z lisu na desku vedou k postupnému uvolňování a vysouvání konektorů. Dochází k nárůstu přechodového odporu, jiskření, oxidaci kontaktů a přerušení spojení (tzv. studený kontakt). ` | ` Ztráta kontroly nad signály, náhodné odpojování vstupů/výstupů. Pokud se odpojí zpětná vazba nebo napájení v nevhodný moment, stroj zůstane v nebezpečném pohybu ` |
+| **Funkční bezpečnost (Safety)** | Nouzový stop řešený softwarově v čipu | ` Pokud se mikrokontrolér ATmega328P zasekne (např. vlivem EMI špičky, watch-dog selhání nebo softwarové smyčky), mikroprocesor přestane reagovat na vnější přerušení. Softwarový příkaz LOW navíc fyzicky nerozpojí spečené kontakty hobby relé. ` | ` Úplná nefunkčnost nouzového zastavení. Při sevření ruky obsluhy lis nezastaví ani po stisknutí E-Stop tlačítka. Riziko amputace nebo amputace s následkem smrti. ` |
 
 2. **Návrh profesionálního nápravného řešení:**
    - Navrhněte, jakými certifikovanými průmyslovými komponenty tento celek nahradíte při zachování minimálního rozpočtu:
